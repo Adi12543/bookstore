@@ -1,0 +1,111 @@
+body {
+    background-color: #F4EAD5;
+}
+
+nav {
+    background-color: #CCD6A6;
+    margin-bottom: 1%;
+
+}
+
+
+/* navbar logo padding */
+.navbar-brand {
+    PADDING-LEFT: 3%;
+
+}
+
+/* navbar search padding*/
+.d-flex {
+    padding-right: 5%;
+
+}
+
+/* cards book details */
+
+
+.card-deck {
+    display: flex;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.card {
+    margin: 1%;
+    background-color: #F4EAD5;
+    border: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #767a66;
+    height: 2em;
+    width: 2em;
+    top: 50%;
+    transform: translateY(-50%);
+
+    border-radius: 30px;
+    border: 2px solid rgb(96, 86, 86);
+}
+
+
+.btn-light {
+    border: 1px solid black !important;
+}
+
+/* card book description */
+.bookbuyingoptions {
+    margin-top: 2%;
+    color: black;
+    text-decoration: none;
+
+}
+
+.card-text {
+    margin-top: 2%;
+   
+}
+
+.typebookbuying {
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 700;
+    color: rgb(173, 11, 11);
+}
+
+.card-title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+/* offers card */
+.offers {
+    font-weight: 600;
+    color: rgb(146, 11, 11);
+    font-size: medium !important;
+}
+
+.list-group-item {
+    font-weight: 400;
+    font-size: small;
+
+}
+
+/* buynow card */
+#buybook {
+    border: 2px solid black;
+}
+
+@media(max-width:780px) {
+    .card {
+        width: 100%;
+    }
+
+    .card-deck {
+        display: inline-block;
+    }
+}

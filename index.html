@@ -1,0 +1,394 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BooksForAll</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="bookfavicon.ico">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Inter+Tight:wght@300&family=Lobster&family=Merriweather:ital@1&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/nav.png" alt="BooksForAll" width="40" height="45">
+                BooksForAll
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html" target="_blank">
+                            Sign-up
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" target="_blank">
+                            Customer Service
+                        </a>
+                    </li>
+                </ul>
+
+
+            </div>
+        </div>
+        <!-- search option -->
+        <form class="d-flex ms-auto" role="search">
+            <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search </button>
+        </form>
+    </nav>
+    <!-- carousel offers -->
+    <div id="carouselOffers" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/one.jpg" class="d-block" alt="books" width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="images/two.jpg" class="d-block " alt="book" width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="images/three.jpg" class="d-block  " alt="kalki" width="100%">
+
+            </div>
+            <div class="carousel-item">
+                <img src="images/four.jpg" class="d-block  " alt="manga" width="100%">
+
+            </div>
+            <div class="carousel-item">
+                <img src="images/five.jpg" class="d-block  " alt="popular" width="100%">
+
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOffers" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOffers" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+
+    <!-- popular books -->
+    <div class="genremain">
+
+        <p class="genre">Popular Books <a class='seemore' href="">see more</a></p>
+
+        <div class="card-deck">
+            <!-- 1st book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/book title.png"
+                                class="img-fluid rounded-start" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author</h5>
+                            </p>
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/book title.png"
+                                class="img-fluid rounded-start" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author</h5>
+                            </p>
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/book title.png"
+                                class="img-fluid rounded-start" alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author</h5>
+                            </p>
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- NEW ARRIVALS -->
+    <div class="genremain">
+
+        <p class="genre">New Arrivals <a class='seemore' href="">see more</a> </p>
+
+        <div class="card-deck">
+            <!-- 1st book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/na.png" class="img-fluid rounded-start"
+                                alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author</h5>
+                            </p>
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2nd book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/na.png" class="img-fluid rounded-start"
+                                alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author </h5>
+                            </p>
+
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3rd book -->
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 ">
+                        <a href="buybook.html" target="_blank"> <img src="images/na.png" class="img-fluid rounded-start"
+                                alt="..."></a>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <p class="card-title">
+                            <h3>Book Title</h3>
+                            <hr>
+                            <h5>Author </h5>
+                            </p>
+                            <p class="card-text "> Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+                                recusandae natus quisquam quibupariatur dignissimos optio qui veniam, possimus
+                                repelo!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- 2nd carousel -->
+    <div id="carouselOffers" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-School.jpg"
+                    class="d-block" alt="books" width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-Exam-Preparations.jpg"
+                    class="d-block " alt="book" width="100%">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/Books/072021/bookshprefresh/1500-X-300-University.jpg"
+                    class="d-block  " alt="kalki" width="100%">
+
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOffers" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOffers" data-bs-slide="next">
+            <span class="carousel-control-next-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- based on genre -->
+    <div class="genremain">
+
+        <p class="genre">Based On Genre </p>
+
+        <div class="row align-items-start">
+            <!-- romance -->
+            <div class="  col-sm-2 col-4">
+                <img src="images/romance.png" class="card-img" alt="romance">
+
+            </div>
+            <!-- comics -->
+            <div class=" col-sm-2 col-4">
+                <img src="images/comics.PNG" class="card-img" alt="comics">
+
+            </div>
+            <!-- mystery -->
+            <div class="col-sm-2 col-4">
+                <img src="images/MYSTERY.png" class="card-img" alt="mystery">
+
+            </div>
+            <!-- horror -->
+            <div class="\ col-sm-2 col-4">
+                <img src="images/horror.png" class="card-img" alt="mystery">
+
+            </div>
+            <!-- biography -->
+
+            <div class=" col-sm-2 col-4">
+                <img src="images/biography.png" class="card-img" alt="biography">
+
+            </div>
+            <!-- science fiction -->
+            <div class=" col-sm-2 col-4">
+                <img src="images/science fiction.png" class="card-img" alt="romance">
+            </div>
+        </div>
+    </div>
+    <!-- based on mother tongue -->
+    <div class="genremain">
+
+        <p class="genre">Read books in your mother tongue </p>
+
+        <div class="row align-items-start">
+            <!-- hindi -->
+            <div class="  col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/RegionalStore/hin._SS400_QL85_.jpg"
+                    class="card-img" alt="hindi">
+
+            </div>
+            <!-- tamil -->
+            <div class=" col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/RegionalStore/tam._SS400_QL85_.jpg"
+                    class="card-img" alt="tamil">
+
+            </div>
+            <!--telegu -->
+            <div class="col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/RegionalStore/tel._SS400_QL85_.jpg"
+                    class="card-img" alt="telegu">
+
+            </div>
+            <!-- gujrati -->
+            <div class="\ col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/RegionalStore/guj._SS400_QL85_.jpg"
+                    class="card-img" alt="gujrati">
+
+            </div>
+            <!-- marathi -->
+
+            <div class=" col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/Media_TopicalStores_2022/marathi._SS400_QL85_.jpg"
+                    class="card-img" alt="marathi">
+
+            </div>
+            <!--bengoli-->
+            <div class=" col-sm-2 col-4">
+                <img src="https://m.media-amazon.com/images/G/31/media/RegionalStore/ben._SS400_QL85_.jpg"
+                    class="card-img" alt="bengoli">
+            </div>
+        </div>
+
+    </div>
+
+
+    <fieldset>
+        <h4 class="about">Explore and Buy Books at BooksForAll India</h4>
+        <p class="aboutinfo">
+        <ul>
+            <li> BooksForAll offers you over 25 million titles across categories such as Children’s Books, Business &
+                Economics, Indian Writing and Literature & Fiction</li>
+            <li>Reading books is the favourite pastime of many
+                people. If you’re bitten by the book-bug
+                too, then there is a massive collection of books for you to read. From bestsellers to new & future
+                releases,
+                the choices are exhaustive when you shop online at India's Largest Bookstore.</li>
+            <li>
+                From books for dummies, to textbooks for students, there are a wide variety of books. You can explore
+                the young adults books store if you’re looking to gift a nice book to a teenager, where you can find
+                books from the best-selling series.
+            </li>
+            <li>Innumerable books are divided under various categories like action & adventure, business & economics,
+                comics & mangas, crime, thriller & mystery, fiction, humour, and romance. You can browse by genre when
+                you buy online making it more convenient for you to narrow down your choices. Then there are biographies
+                and true accounts bestsellers as well. These books are available in different formats like hardcover,
+                paperback, and board book.</li>
+            <li>
+                When you shop online, there are hot pre-orders. You can easily secure that book you’ve always wanted to
+                read, as the book will be delivered at your doorstep soon after its official release. You also have easy
+                access to most of the new arrivals, with book descriptions that help you get an idea about the book
+                without spoilers.
+            </li>
+        </ul>
+        </p>
+    </fieldset>
+
+</body>
+
+</html>

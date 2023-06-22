@@ -1,0 +1,178 @@
+body {
+    background-color: #F4EAD5;
+}
+
+nav {
+    background-color: #CCD6A6;
+    margin-bottom: 1%;
+
+}
+
+h6 {
+    color: red;
+    font-weight: bold;
+}
+
+h5 {
+    color: rgb(58, 57, 57);
+}
+
+
+/* navbar logo padding */
+.navbar-brand {
+    PADDING-LEFT: 3%;
+}
+
+/* navbar search padding*/
+.d-flex {
+    padding-right: 5%;
+
+}
+
+/* carousel  */
+.carousel-item {
+    margin-top: 2%;
+    background-color: #F4EAD5;
+}
+
+/* controls carousel  */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: #5d614e;
+    height: 2em;
+    width: 2em;
+    border-radius: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+/* main carousel div */
+#carouselOffers {
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+}
+
+/*  popular books */
+.genre {
+    font-weight: 600;
+    font-size: x-large;
+    margin-bottom: 0%;
+    font-family: 'Merriweather', serif;
+    margin-top: 4%;
+
+}
+
+.seemore {
+
+    font-size: large;
+    font-weight: 500 !important;
+    float: right;
+
+}
+
+.genremain {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+}
+
+.card-deck {
+    display: flex;
+}
+
+.card {
+    background-color: #DFD3C3;
+    margin: 1%;
+
+}
+
+
+.card:hover {
+    border: 1px solid black;
+
+}
+
+.img-fluid {
+
+    margin-top: 2%;
+    margin-left: 4%;
+
+}
+
+/* card text */
+.card-title {
+    font-family: 'Andika', sans-serif;
+
+}
+
+/* to hide book description */
+/* .card-text {
+    white-space: nowrap;
+    width: 150px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-text:hover {
+    white-space: normal;
+    overflow: visible;
+    width: 100%;
+} */
+
+/* based on genre */
+.card-img {
+    margin-top: 10%;
+}
+
+@media(max-width:780px) {
+
+    /*  if you want to display one below other in mobile */
+    /* .card-deck {
+        display: inline-block;
+    } */
+
+    .card-text {
+        display: none;
+    }
+
+    h3 {
+        font-size: large;
+    }
+
+    h5 {
+        font-size: medium;
+
+    }
+
+    .genre {
+        font-size: large;
+    }
+
+    .seemore {
+        margin-left: 0;
+        font-size: small;
+    }
+
+}
+
+/* about */
+fieldset {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+
+.about {
+    color: #3c4c89;
+    font-family: 'Patrick Hand', cursive;
+}
+
+li {
+    font-size: medium;
+}
